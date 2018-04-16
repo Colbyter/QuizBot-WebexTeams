@@ -12,7 +12,7 @@ from settings import Settings
 client = MongoClient("localhost", 27017)
 db = client.brainy_mongo_db
 
-class Quiz_facts(object):
+class QuizFacts(object):
 
     def __init__(self):
         self = None
@@ -204,5 +204,5 @@ if __name__ == "__main__":
     bot_email = "BOT_EMAIL"
     bot_name = "BOT_NAME"
     spar = Spark(Settings.token)
-    game = Quiz_facts()
+    game = QuizFacts()
     run_itty(server='wsgiref', host='0.0.0.0', port=10070)
