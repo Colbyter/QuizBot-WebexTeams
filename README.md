@@ -1,4 +1,4 @@
-# QuizBot-webexteams
+# QuizBot-WebexTeams
 Quiz and Trivia Bot for [Cisco Webex Teams](https://developer.webex.com/).
 
 Follow instrutions [here](https://developer.ciscospark.com/bots.html) to create a bot on Cisco Webex Teams Dev platform and use its credentials in the script.
